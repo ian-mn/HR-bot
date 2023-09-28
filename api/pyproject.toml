@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Nedobezhkin <ivan.nedobezkin@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.23.2"
+fastapi = "^0.103.2"
+pydantic-settings = "^2.0.3"
+gunicorn = "^21.2.0"
+redis = "^5.0.1"
+orjson = "^3.9.7"
+smsaero-api = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
